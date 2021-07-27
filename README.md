@@ -41,11 +41,11 @@ The files contained in this repository.
 
 | File name  |Description |
 | ------ | ------ |
-| [_printf.c] [Print]| Main file of the _printf() function. Where the buffer is set up and other functions are called as the format string is traversed with the pointer. |
-| [function1.c] [F1]|Contains the character type specifier functions. These are %c, %s, %%. |
-| [function2.c] [F2] | Contains the integer type specifier functions. These are %d, %i, %u, %o. |
-| [function3.c] [F3]| Contains the hexadecimal integer type specifier functions. These are %x, %X. |
-| [holberton.h] [H.h]| Header file containing structure definitions, prototype functions and standard libraries. |
+|[_printf.c]| Main file of the _printf() function. Where the buffer is set up and other functions are called as the format string is traversed with the pointer. |
+| [function1.c] | Contains the character type specifier functions. These are %c, %s, %%. |
+| [function2.c] | Contains the integer type specifier functions. These are %d, %i, %u, %o. |
+| [function3.c] | Contains the hexadecimal integer type specifier functions. These are %x, %X. |
+| [holberton.h] | Header file containing structure definitions, prototype functions and standard libraries. |
 
 ## Flowchart
 
@@ -58,12 +58,12 @@ This is the flowchart of our code. (este flowchart es solo un ejemplo de cómo q
 
 [![N|Solid](https://i.postimg.cc/FKh7hgp9/pngegg.png)](https://twitter.com/EylenSnchez1) [![N|Solid](https://i.postimg.cc/FKh7hgp9/pngegg.png)](https://twitter.com/Lisethav55) 
 
-Eylen Sanchez | | Liseth Arias
+Eylen Sanchez | Liseth Arias
 
 [//]: # (These are reference links used in the body of this note. - )
 
-   [Print]: <https://github.com/EylenS/Assays/blob/main/_printf.c>
-   [F1]: <https://github.com/EylenS/Assays/blob/main/function1.c>
-   [F2]: <https://github.com/EylenS/Assays/blob/main/function2.c>
-   [F3]: <https://github.com/EylenS/Assays/blob/main/function3.c>
-   [H.h]: <https://github.com/EylenS/Assays/blob/main/holberton.h>
+   [_printf.c]: <https://github.com/EylenS/Assays/blob/main/_printf.c>
+   [function1.c]: <https://github.com/EylenS/Assays/blob/main/function1.c>
+   [function2.c]: <https://github.com/EylenS/Assays/blob/main/function2.c>
+   [function3.c]: <https://github.com/EylenS/Assays/blob/main/function3.c>
+   [holberton.h]: <https://github.com/EylenS/Assays/blob/main/holberton.h>
