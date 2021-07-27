@@ -1,15 +1,15 @@
 #include "holberton.h"
 /**
- *pr_x - Type x specifier function
+ *pr_x - Unsigned decimal integer
  *
- * @arg: arg
- * Return: to 0
+ * @arg: arguments
+ * Return: 0
  */
 
 int pr_x(va_list arg) /* if (*p == 'x')*/
 {
 	int i;
-	char buffer[20];
+	char buffer[1024];
 
 	i = va_arg(arg, int);
 	itoa(i, buffer, 16); /*here 16 means hexadecimal*/
@@ -18,10 +18,10 @@ int pr_x(va_list arg) /* if (*p == 'x')*/
 }
 
 /**
- * pr_X - Type X specifier function
+ * pr_X - Unsigned hexadecimal int (capital letters)
  *
  * @arg: arg
- * Return: to 0
+ * Return: 0
  */
 int pr_X(va_list arg) /*if (*p == 'X')*/
 {
