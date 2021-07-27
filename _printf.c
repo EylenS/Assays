@@ -1,3 +1,4 @@
+
 #include "holberton.h"
 /**
  * _printf - function print to the string with parameters
@@ -8,9 +9,9 @@
 int _printf(const char *format, ...)
 {
 	va_list arg;
-	int i;
 	int count_char; /*count the amount of chars*/
 	const char *p;
+	int i = 0;
 
 	if (format != NULL)
 	{
@@ -30,7 +31,6 @@ int _printf(const char *format, ...)
 			else
 			{
 				p++;
-				int i = 0;
 				while (i < 9)
 				{
 					if (*p == print[i].op)

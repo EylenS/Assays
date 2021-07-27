@@ -8,7 +8,7 @@
 int pr_di(va_list arg) /*if (*p == 'd' || *p == 'i')*/
 {
 	int i;
-	char buffer[20];
+	char buffer[1024];
 
 	i = va_arg(arg, int);
 	itoa(i, buffer, 10);              /*here 10 means decimal*/
@@ -24,7 +24,7 @@ int pr_di(va_list arg) /*if (*p == 'd' || *p == 'i')*/
 int pr_ui(va_list arg) /*if (*p == 'u')*/
 {
 	int i;
-	char buffer[20];
+	char buffer[1024];
 
 	i = va_arg(arg, int);
 	if (i <= -1)
@@ -42,7 +42,7 @@ int pr_ui(va_list arg) /*if (*p == 'u')*/
 int pr_o(va_list arg) /*if (*p == 'o')*/
 {
 	int i;
-	char buffer[20];
+	char buffer[1024];
 
 	i = va_arg(arg, int);
 	itoa(i, buffer, 8); /*converts integer 10 to octal*/

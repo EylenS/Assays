@@ -33,5 +33,5 @@ int pr_ui(va_list arg);
 int pr_o(va_list arg);
 int pr_x(va_list arg);
 int pr_X(va_list arg);
-
+char * itoa( int, char *, int);
 #endif
