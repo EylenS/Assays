@@ -3,7 +3,7 @@
 
 In this project we implement a function similar to printf(), from the standard  library <stdio.h>.
 
-The printd() function is of variable type, i.e. it can receive an indefinite number of arguments, following the format pointer.
+The printf() function is of variable type, that is, it can receive an indefinite number of arguments, following the format pointer.
 
 ## _Examples of_ __printf() usage_
 
