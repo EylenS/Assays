@@ -8,10 +8,8 @@
 int pr_char(va_list arg) /* if (*p == 'c')*/
 {
 	char *s;
-	char value;
-
-	value = va_arg(arg, int); /*extracts int arg & stores as char type*/
-	*s = value;
+	
+	s = va_arg(arg, char *); /*extracts int arg & stores as char type*/
 	write(1, s, 1);
 	return (0);
 }
