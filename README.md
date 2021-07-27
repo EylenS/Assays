@@ -12,9 +12,10 @@ The printd() function is of variable type, i.e. it can receive an indefinite num
 **For example:**
 
 - **Input** ```_printf("Let's try to printf a simple sentence.\n");```
--- **Output** ```Let's try to printf a simple sentence.```
+- **Output** ```Let's try to printf a simple sentence.```
+
 - **Input** ```_printf("Negative:[%d]\n", -762534);```
--- **Output** ```Negative:[-762534]```
+- **Output** ```Negative:[-762534]```
 
 More types of combinations are possible using the specifiers, to print strings, integers and more.
 
