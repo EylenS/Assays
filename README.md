@@ -41,11 +41,11 @@ The files contained in this repository.
 
 | File name  |Description |
 | ------ | ------ |
-| [**_printf.c**] [Print]| Main file of the _printf() function. Where the buffer is set up and other functions are called as the format string is traversed with the pointer. |
-| [**function1.c**] [F1]|Contains the character type specifier functions. These are %c, %s, %%. |
-| [**function2.c**] [F2] | Contains the integer type specifier functions. These are %d, %i, %u, %o. |
-| [**function3.c**] [F3]| Contains the hexadecimal integer type specifier functions. These are %x, %X. |
-| [**holberton.h**] [H.h]| Header file containing structure definitions, prototype functions and standard libraries. |
+| [_printf.c] [Print]| Main file of the _printf() function. Where the buffer is set up and other functions are called as the format string is traversed with the pointer. |
+| [function1.c] [F1]|Contains the character type specifier functions. These are %c, %s, %%. |
+| [function2.c] [F2] | Contains the integer type specifier functions. These are %d, %i, %u, %o. |
+| [function3.c] [F3]| Contains the hexadecimal integer type specifier functions. These are %x, %X. |
+| [holberton.h] [H.h]| Header file containing structure definitions, prototype functions and standard libraries. |
 
 ## Flowchart
 
@@ -62,8 +62,8 @@ Eylen Sanchez | | Liseth Arias
 
 [//]: # (These are reference links used in the body of this note. - )
 
-   [Print]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [F1]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [F2]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [F3]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [H.h]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
+   [Print]: <https://github.com/EylenS/Assays/blob/main/_printf.c>
+   [F1]: <https://github.com/EylenS/Assays/blob/main/function1.c>
+   [F2]: <https://github.com/EylenS/Assays/blob/main/function2.c>
+   [F3]: <https://github.com/EylenS/Assays/blob/main/function3.c>
+   [H.h]: <https://github.com/EylenS/Assays/blob/main/holberton.h>
