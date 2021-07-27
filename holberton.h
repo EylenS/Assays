@@ -10,10 +10,17 @@
 #include "holberton.h"
 
 /*Structs*/
+/**
+ * struct op -Groups elements of possibly != types into a single type
+ * @op: directives (example: %s, %d, %c, etc)
+ * @f: The function associated with op. Function pointer.
+ *
+ * The pointer points to the function according to the op passed
+ */
 typedef struct op
 {
-    char op;
-    int (*f)(va_list);
+	char op;
+	int (*f)(va_list);
 } op_t;
 
 /*Prototypes*/
